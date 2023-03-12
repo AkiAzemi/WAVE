@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" href="css/myreset.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/style.css">
 
 
@@ -166,7 +167,8 @@
             </div>
             <div class="services__inner">
                 <div class="services__info">
-                    <div class="services__info-item">Приехали второй раз
+                    <div class="services__info-item">
+                        <span>Приехали второй раз</span>
                         <span style="width: calc(100% - 85%)">85%</span>
                     </div>
                     <div class="services__info-item">Научились кататься
@@ -214,6 +216,114 @@
         </div>
     </section>
 
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="title portfolio__title">
+                ГАЛЕРЕЯ
+            </h2>
+            <div class="portfolio__filter-btn">
+                <button class="portfolio__btn" data-filter="all">
+                    ВСЕ
+                </button>
+                <button class="portfolio__btn" data-filter=".category-b">
+                    ТУРИСТЫ
+                </button>
+                <button class="portfolio__btn" data-filter=".category-c">
+                    ПРИРОДА
+                </button>
+                <button class="portfolio__btn" data-filter=".category-a">
+                    ПРОФИ
+                </button>
+            </div>
+            <div class="portfolio__content">
+                <div class="portfolio__item mix category-a">
+                    <img src="images/portfolio/1.jpg" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+
+                    </a>
+                </div>
+                <div class="portfolio__item mix category-b">
+                    <img src="images/portfolio/2.jpg" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+
+                    </a>
+                </div>
+                <div class="portfolio__item mix category-b">
+                    <img src="images/portfolio/3.jpg" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+
+                    </a>
+                </div>
+                <div class="portfolio__item mix category-b">
+                    <img src="images/portfolio/4.jpg" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+
+                    </a>
+                </div>
+                <div class="portfolio__item mix category-c">
+                    <img src="images/portfolio/5.jpg" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+
+                    </a>
+                </div>
+                <div class="portfolio__item mix category-a">
+                    <img src="images/portfolio/6.jpg" alt="portfolio images">
+                    <a href="#" class="portfolio__item-link">
+
+                    </a>
+                </div>
+
+            </div>
+            <a href="#" class="portfolio__add">
+                ПОКАЗАТЬ ЕЩЕ
+            </a>
+            <blockquote class="blockquote">
+                «Если сомневаешься – иди катайся.»
+                <span class="bloclquote__author">
+                    Нэт Янг, первый Чемпион Мира по сёрфингу
+                </span>
+            </blockquote>
+            <div class="portfolio__video">
+                <a data-fancybox href="https://www.youtube.com/watch?v=tHnwV5ay8-8&t=7s" class="portfolio__video-link">
+                    <img src="images/Play.svg" alt="play item">
+                </a>
+            </div>
+            <div class="container">
+                <div class="portfolio__numbers">
+                    <h5 class="portfolio__numbers-item">
+                        450
+                        <span>
+                            туристов
+                        </span>
+                    </h5>
+                    <h5 class="portfolio__numbers-item">
+                        2500
+                        <span>
+                            часов катания
+                        </span>
+                    </h5>
+                    <h5 class="portfolio__numbers-item">
+                        10
+                        <span>
+                            проф. тренеров
+                        </span>
+                    </h5>
+                    <h5 class="portfolio__numbers-item">
+                        365
+                        <span>
+                            дней в году
+                        </span>
+                    </h5>
+                </div>
+            </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="js/slick.min.js"></script> -->
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+
+    <script src="js/main.js"></script>
 
 </body>
 
